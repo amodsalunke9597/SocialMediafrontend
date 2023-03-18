@@ -1,0 +1,28 @@
+.Navbar{
+    height: 60px;
+    border-bottom: 1px solid gray;
+
+    .container{
+        height: 100%;
+        max-width: 960px;
+        display:flex ;
+        align-items: center;
+        justify-content: space-between;
+        margin-inline: auto;
+
+        .right-side {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+    
+            .logout {
+                font-size: 1.8rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+   
+}
